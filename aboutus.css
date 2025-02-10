@@ -1,0 +1,51 @@
+*{
+    padding:0%;
+    margin:0;
+    overflow-x: hidden;
+}
+header{
+    background-color: greenyellow;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0;
+}
+nav{
+    display: flex;
+    
+    background-color: #333;
+    
+    padding: 10px ;
+    justify-content: space-evenly;
+    flex-direction: row;
+    -ms-flex-align: center;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+.content{
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 20px;
+    
+    
+}
+.animation{
+    bottom: 0;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    
+    }
+.scroll{
+    bottom: 0;
+    animation: harsh 9s linear  infinite normal;}
+@keyframes harsh{
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+    }

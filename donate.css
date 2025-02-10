@@ -1,0 +1,71 @@
+*{
+    padding:0%;
+    margin:0;
+    overflow-x: hidden;
+}
+header{
+    background-color: greenyellow;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0;
+}
+nav{
+    display: flex;
+    
+    background-color: #333;
+    
+    padding: 10px ;
+    justify-content: space-evenly;
+    flex-direction: row;
+    -ms-flex-align: center;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+.donate{
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 30px;
+    padding: 20px 10px;
+
+}
+.donate-form input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+.donate-form button{
+    background-color: greenyellow;
+    padding:10px 20px;
+    border-radius: 5px;
+    
+}
+.donate-form button a{
+    text-decoration: none;
+    color: black;
+}
+.animation{
+    
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    
+    }
+.scroll{
+    bottom: 0;
+    animation: harsh 9s linear  infinite normal;}
+@keyframes harsh{
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+    }
+.upi{
+    text-align: center;
+}
+
